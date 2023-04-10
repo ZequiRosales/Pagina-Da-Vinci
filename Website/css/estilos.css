@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#contenedor {
+    width: 1200px;
+    margin: auto;
+    background-color: white;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: black;
+}
+
+@font-face {
+    font-family: "Dark Seed";
+    src: url("../recursos/dark_seed-webfont.woff2") format("woff2"), 
+         url("../recursos/dark_seed-webfont.woff") format("woff");
+    font-style: normal;
+    font-weight: 400;    
+}
+
+header, footer{
+    padding: 30px 60px;
+    background-color: black;
+}
+
+#logo {
+    display: inline-block;
+    background-image: url("../recursos/logo.png");
+    width: 300px;
+    height: 241px;
+    font-size: 0;
+    vertical-align: middle;
+}
+
+nav {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 300px;
+    padding: 10px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    width: 100px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    font-family: "Dark Seed";
+    font-size: large;
+    display: block;
+    text-decoration: none;
+    background-color: red;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: black;
+}
+
+nav ul li a:hover {
+    background-color: white;
+
+}
+
+figure {
+    line-height: 0;
+}
+
+footer p {
+    color: white;
+    text-align: left;
+    line-height: 22px;
+}
+
+footer div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#redes {
+    margin-left: 400px;
+    font-size: 0;
+}
+
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    width: 48px;
+}
+
+footer ul li a {
+    display: block;
+    height: 48px;
+
+}
+
+#fb {
+    background-image: url("../recursos/fb.png");
+}
+
+#fb:hover {
+    background-image: url("../recursos/fb_hover.png");
+}
+
+#tw {
+    background-image: url("../recursos/tw.png");
+}
+
+#tw:hover {
+    background-image: url("../recursos/tw_hover.png");
+}
+
+#ig {
+    background-image: url("../recursos/ig.png");
+}
+
+#ig:hover {
+    background-image: url("../recursos/ig_hover.png");
+}
+
+#sp {
+    background-image: url("../recursos/sp.png");
+
+}
+
+#sp:hover {
+    background-image: url("../recursos/sp_hover.png");
+
+}
+
+.construccion {
+    text-align: center;
+    font-size: 43px;
+    padding-top: 250px;
+}
+
+.imagenConstruccion {
+    text-align: center;
+    padding-bottom: 250px;
+}
+
+h2 {
+    font-family: "Dark Seed";
+}
+
+#subtitulo {
+    padding: 10px 20px;
+    font-size: 36px;
+    background-color: red;
+}
+
+.estructuraSeccion {
+    width: 400px;
+    padding: 20px;
+    padding-bottom: 100px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.estructuraSeccion h3 {
+    margin: 20px 0;
+    text-decoration: 5px underline red;
+    text-underline-offset: 6px;
+}
+
+.estructuraSeccion img {
+    border: 5px solid red;
+}
+
+.estructuraSeccion p {
+    margin: 15px 0;
+    line-height: 23px;
+}
+
+#auspiciante {
+    display: inline-block;
+    width: 290px;
+    background-color: black;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+#auspiciante ul li {
+    list-style: none;
+    text-align: center;
+    margin: 30px 0;
+}
+
+#bloqueInfo {
+    padding: 100px;
+    background-color: lightgray;
+}
+
+#bloqueInfo figure {
+    width: 400px;
+    display: inline-block;
+}
+
+#bloqueInfo img {
+    border: 5px solid red;
+}
+
+#bloqueInfo figcaption {
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+#bloqueInfo div {
+    width: 560px;
+    margin-left: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#bloqueInfo h2 {
+    padding-bottom: 20px;
+    text-decoration: 5px underline red;
+}
+
+#bloqueInfo p {
+    line-height: 23px;
+}
+
+#pastillaInfo {
+    padding: 40px;
+}
+
+#pastillaInfo h2{
+    text-align: center;
+    padding: 10px 0 40px 0;
+    text-decoration: 5px underline red;
+    text-underline-offset: 6px;
+}
+
+#pastillaInfo ul li {
+    list-style: none;
+    width: 260px;
+    display: inline-block;
+    text-align: center;
+    margin: 30px 20px;
+    padding: 30px;
+    vertical-align: top;
+    background-color: lightgray;
+}
+
+#pastillaInfo ul li:hover {
+    background-color: red;
+}
+
+#pastillaInfo h3 {
+    margin: 10px 0;
+}
